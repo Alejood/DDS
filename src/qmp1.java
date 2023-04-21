@@ -48,7 +48,7 @@ class Prenda{
 }
 
 class TipoDePrenda{
-   private Categoria categoria
+   private Categoria categoria;
    public TipoDePrenda(Categoria categoria){
       if(categoria==null){
          throw new NullPointerException();

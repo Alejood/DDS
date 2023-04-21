@@ -19,10 +19,10 @@ public enum Categoria{
 }
 
 class Prenda{
-   TipoDePrenda tipoPrenda;
-   Material material;
-   Color color; // RGB
-   Color colorSecundario;
+   private TipoDePrenda tipoPrenda;
+   private Material material;
+   private Color color; // RGB
+   private Color colorSecundario;
 
    public Prenda(TipoDePrenda tipoPrenda, Material material, Color color){
       if(material==null || tipoPrenda==null || color==null){
@@ -48,7 +48,7 @@ class Prenda{
 }
 
 class TipoDePrenda{
-   Categoria categoria
+   private Categoria categoria
    public TipoDePrenda(Categoria categoria){
       if(categoria==null){
          throw new NullPointerException();

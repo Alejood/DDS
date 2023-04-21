@@ -22,6 +22,7 @@ class Prenda{
    TipoDePrenda tipoPrenda;
    Material material;
    Color color; // RGB
+   Color colorSecundario;
 
    public Prenda(TipoDePrenda tipoPrenda, Material material, Color color){
       if(material==null || tipoPrenda==null || color==null){
